@@ -1,0 +1,74 @@
+body{
+    font-size: 18px;
+}
+
+.general{
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+
+input{
+    display: block;
+    width: 310px;
+    height: 120px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 20px;
+    position: relative;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.numbers{
+    width: 330px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 14px;
+    row-gap: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    align-items: top;
+}
+
+.row-one{
+    display: grid;
+}
+
+button{
+    width: 70px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(239, 239, 239);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: all 0.2s;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+.light-blue{
+    background-color: rgb(226, 230, 255);
+}
+
+.equal{
+    background-color: rgb(49, 65, 248);
+    color: white;
+}
