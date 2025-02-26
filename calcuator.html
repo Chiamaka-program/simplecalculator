@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="general">
+        <input type="text" id="display" disabled>
+        <div class="numbers">
+            <div class="row-one">
+                <button onclick="appendToDisplay('')" class="light-blue">(</button>
+                <button onclick="appendToDisplay('7')" class="gray">7</button>
+                <button onclick="appendToDisplay('4')" class="gray">4</button>
+                <button onclick="appendToDisplay('1')" class="gray">1</button>
+                <button onclick="appendToDisplay('0')" class="gray">0</button>
+            </div>
+            <div class="row-one">
+                <button onclick="appendToDisplay('')" class="light-blue">)</button>
+                <button onclick="appendToDisplay('8')" class="gray">8</button>
+                <button onclick="appendToDisplay('5')" class="gray">5</button>
+                <button onclick="appendToDisplay('2')" class="gray">2</button>
+                <button onclick="appendToDisplay('.')" class="gray">.</button>
+            </div>
+            <div class="row-one">
+                <button onclick="appendToDisplay('%')" class="light-blue">%</button>
+                <button onclick="appendToDisplay('9')" class="gray">9</button>
+                <button onclick="appendToDisplay('6')" class="gray">6</button>
+                <button onclick="appendToDisplay('3')" class="gray">3</button>
+                <button onclick="calculateResult()" class="equal">=</button>
+            </div>
+            <div class="row-one">
+                <button onclick="clearDisplay()" class="light-blue">AC</button>
+                <button onclick="appendToDisplay('/')" class="light-blue">/</button>
+                <button onclick="appendToDisplay('x')" class="light-blue">x</button>
+                <button onclick="appendToDisplay('-')" class="light-blue">-</button>
+                <button onclick="appendToDisplay('+')" class="light-blue">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
